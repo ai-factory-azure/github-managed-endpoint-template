@@ -10,8 +10,9 @@ pool:
 resources:
   repositories:
     - repository: templates-mlops  # Template Repo
-      name: AI-Factory Managed Endpoints/templates-mlops #change!
-      type: git
+      name: ai-factory-azure/templates-mlops
+      endpoint: Github-Service-Endpoint
+      type: github
 
 stages:
 - stage: DeployTrainingPipeline
