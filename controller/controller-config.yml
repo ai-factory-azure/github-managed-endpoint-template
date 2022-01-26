@@ -7,7 +7,7 @@ variables:
 
 # Managed Endpoints
   endpoint_name: testEndpoint1  #no spaces or _ allowed; only lowercase, caps, and -
-  model: azureml:sklearn_regression_model.pkl:1  #does not work with local paths
+  model: ../model/sklearn_regression_model.pkl  #does not work with local paths
   deployment_name: blue
   deployment_file: blue-deployment.yml
   traffic_allocation: blue=90 green=10 
