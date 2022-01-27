@@ -6,7 +6,7 @@ variables:
   ml_workspace_rg: azureml-examples-rg
 
 # Managed Endpoints
-  endpoint_name: testEndpoint10  #no spaces or _ allowed; only lowercase, caps, and -
+  endpoint_name: testEndpoint5  #no spaces or _ allowed; only lowercase, caps, and -
   model: ../model/sklearn_regression_model.pkl  #does not work with local paths
   deployment_name: blue
   deployment_file: blue-deployment.yml
